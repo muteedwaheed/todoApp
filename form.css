@@ -1,0 +1,40 @@
+.container {
+    background: rgba(255, 255, 255, 0.8); /* semi-transparent background */
+    backdrop-filter: blur(5px); /* blur effect */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit {
+    text-align: center;
+}
+
+.inputField {
+    width: 50%; /* Reduce the width of the input field */
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block; /* To center the input field within its container */
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    width: auto; /* auto width for buttons */
+    padding: 10px 20px; /* padding for buttons */
+}
+
+body {
+    background: url('your-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}   
